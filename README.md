@@ -7,7 +7,6 @@ I love building projects that combine software and hardware, from AI assistants 
 My goal is to study Computer Science at a top university and become an AI engineer while creating technology that helps people.
 
 ### 🚀 Currently Learning
-- CS50x (Harvard)
 - C
 - Python
 - Git & GitHub
@@ -20,7 +19,6 @@ My goal is to study Computer Science at a top university and become an AI engine
 - ⚡ Raspberry Pi Smart AI Assistant
 
 ### 🎯 2026 Goals
-- Finish CS50x
 - Earn multiple programming certificates
 - Build 10+ coding projects
 - Join my first hackathon
