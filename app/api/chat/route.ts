@@ -10,7 +10,7 @@ export async function POST(request: Request) {
     const messages = Array.isArray(body.messages) ? body.messages.slice(-20) : []
     if (!messages.length) return NextResponse.json({ error: 'No message supplied.' }, { status: 400 })
     const result = await generateText({
-      model: groq('llama-3.3-70b-versatile'),
+      model: groq('openai/gpt-oss-120b'),
       system: 'You are JARVIS, a sophisticated personal computer assistant. Be calm, concise, intelligent, professional, and helpful. Avoid theatrical language. Keep responses under 120 words unless detail is needed.',
       messages,
     })
