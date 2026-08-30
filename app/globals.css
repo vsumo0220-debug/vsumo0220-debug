@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0b0d0f;
+  --foreground: #f2f3ef;
+  --card: #111518;
+  --card-foreground: #f2f3ef;
+  --primary: #f2f3ef;
+  --primary-foreground: #0b0d0f;
+  --muted: #161b1e;
+  --muted-foreground: #8b9596;
+  --border: #293033;
+  --accent: #a7d6c0;
+  --accent-foreground: #0b0d0f;
+  --radius: 0.75rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --font-sans: var(--font-geist);
+  --font-mono: var(--font-geist-mono);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--background); color: var(--foreground); font-family: var(--font-geist), sans-serif; }
+a { text-decoration: none; }
+::selection { background: var(--accent); color: var(--accent-foreground); }
